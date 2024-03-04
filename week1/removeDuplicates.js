@@ -1,5 +1,5 @@
 // Question Link :-
-// hhttps://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
 // Starter Code :-
 /**
@@ -12,7 +12,7 @@
 
 var removeDuplicates = function (nums) {
   let j = 0;
-  for (let i = 0; i < nums.length; i++) {
+  for (let i = 1; i < nums.length; i++) {
     if (nums[j] !== nums[i]) {
       nums[++j] = nums[i];
     }
