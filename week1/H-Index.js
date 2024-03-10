@@ -39,7 +39,7 @@ var hIndex = function (citations) {
 // 1. Sort the array in descending oroder
 // 2. Initialise index = 1 (to track indexes), array = 0 (to track array elements), count = 0 (to keep track of counts)
 //      i. if true then increment count
-// 3. Increment array and index;]
+// 3. Increment array and index
 // 4. Return count
 
 // TIME COMOPLEXITY : O(nlogn) where n is the length of nums array
