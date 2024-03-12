@@ -59,5 +59,4 @@ var trap = function (height) {
 
 // TIME COMPLEXITY : O(n) where n is the length of height array
 //        We are traversing the height only once so time complexity will be O(n)
-// SPACE COMPLEXITY : O(1) where n is the lenght of height array
-//        Only constant or independent of input size extra space is used so it is O(1)
+// SPACE COMPLEXITY : O(1) as only constant or independent of input size extra space is used so it is O(1)
