@@ -47,11 +47,11 @@ var isPalindrome = function (s) {
 //      i.   store ASCII code of current character in charCode variable using charCodeAt() method on string s
 //      ii.  if charCode lies in the range of [97-122] i.e. range for a - z and [48-57] i.e. range for 0 - 9
 //              a.  concatenate the current character to alphanumericString
-// 3. initialise left pointer to start of alphanumericString and right pointer to the end i.e. alphanumericString.length - 1
-// 4. Use while loop until left pointer is less than right pointer
+// 4. initialise left pointer to start of alphanumericString and right pointer to the end i.e. alphanumericString.length - 1
+// 5. Use while loop until left pointer is less than right pointer
 //      i.   if left character of alphanumericString is not equal to right one then return false
 //      ii.  increment the left pointer by 1 and decrement right pointer by 1
-// 5. In the end, we will return true as in the while loop if it was a palindrome then it would have returned false already.
+// 6. In the end, we will return true as in the while loop if it was a palindrome then it would have returned false already.
 
 // TIME COMPLEXITY : O(n) where n is the length of input string s
 //                    We traverse through string s 2 times in the worst case so O(n) + O(n) = O(n)
