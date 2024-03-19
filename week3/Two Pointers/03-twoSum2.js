@@ -35,9 +35,9 @@ var twoSum = function (numbers, target) {
 // 2. We will use while loop until left is less than right
 //      i.   update sum to sum of elements of height array at indexes left and right
 //      ii.  if sum is equal to target we will return left+1 and right+1
-//      ii.  else if sum is greater than target we will increment right pointer by 1
-//      ii.  else we will increment left pointer by 1
+//      iii. else if sum is greater than target we will increment right pointer by 1
+//      iv.  else we will increment left pointer by 1
 
-// TIME COMPLEXITY : O(n) where n is the length of height array
+// TIME COMPLEXITY : O(n) where n is the length of numbers array
 //                    we are traversing upto n times in the worst case so O(n)
 // SPACE COMPLEXITY : O(1) as we use only constant extra space for two pointers left and right, and sum variable.
